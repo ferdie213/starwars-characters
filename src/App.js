@@ -39,7 +39,7 @@ const { starwarsCharacters, searchField } = this.state;
       starwarsCharacter.name.toLowerCase().includes(searchField.toLowerCase())
     );
 
-    console.log(filteredStarwarsCharacters, 'from filtered')
+    //console.log(filteredStarwarsCharacters, 'from filtered')
 
     return (
       <div className='App'>
